@@ -1,0 +1,71 @@
+/* colors */
+/* tumno lilav button contanct - 786eff*/
+/* paragraph - 6a747e */
+/* subtitle - 394350 */
+
+body {
+    font-family: Helvetica, sans-serif;
+
+
+}
+
+section {
+    position: static;
+    background-color: hsl(200deg 20% 97.06%);
+    margin: 20px auto;
+    max-width: 1060px;
+
+    display: flex;
+    align-items: center;
+}
+
+.subtitle {
+    font-size: 11px;
+    padding-left: 10px;
+    /* margin-bottom: 20px; */
+    padding-top: 5px;
+}
+
+.title {
+    padding: 10px;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.desc {
+    padding: 10px;
+    margin-bottom: 7px;
+    width: 57%;
+    color: #6a747e;
+}
+
+div {
+    padding-left: 32px;
+    /* font-size: 13px; */
+    line-height: 30px;
+}
+
+.btn-primary {
+    background-color: #786eff;
+    color: white;
+}
+
+.btn {
+    margin: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 3px;
+}
+
+.img {
+    height: 370px;
+    margin-top: 70px;
+    padding-right: 60px;
+}
+
+.learn {
+    background-color: hsl(200deg 20% 97.06%);
+    border: black solid 1px;
+}

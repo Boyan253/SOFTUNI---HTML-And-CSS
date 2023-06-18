@@ -1,0 +1,33 @@
+.get-started {
+    padding: 100px;
+    background-color: hsl(176.6deg, 47.75%, 78.24%);
+    ;
+    margin-top: 30px;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.get-started-title {
+    /* color: hsl(176.6deg, 47.75%, 78.24%); */
+}
+
+.get-started p {
+    margin-bottom: 20px;
+}
+
+.get-started button {
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.get-started button:last-child {
+    margin-bottom: 0;
+}

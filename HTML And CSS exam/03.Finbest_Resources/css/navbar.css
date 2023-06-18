@@ -1,0 +1,32 @@
+/* background color - hsl(176.6deg 47.75% 78.24%) */
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    /* Align menu items to the left */
+    padding: 10px;
+    margin: 20px;
+    font-size: 15px;
+    margin-left: 200px
+}
+
+nav li:not(.auth) {
+    margin-right: 20px;
+    /* Add spacing between menu items */
+}
+
+.auth {
+    display: flex;
+    margin-left: auto;
+    margin-right: 240px;
+    /* Push the last two items to the right */
+}
+
+.auth li:last-child {
+    background-color: hsl(176.6deg 47.75% 78.24%);
+
+}
+
+
+/* Rest of your styles */

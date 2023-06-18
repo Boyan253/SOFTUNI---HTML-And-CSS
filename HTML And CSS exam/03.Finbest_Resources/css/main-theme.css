@@ -1,0 +1,34 @@
+.main-theme {
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: hsl(176.6deg 47.75% 78.24%);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    /* margin-top: 30px; */
+}
+
+.main-theme .title {
+    padding: 0;
+    font-size: 36px;
+    ;
+    /* margin-bottom: 20px; */
+}
+
+.main-theme p {
+    margin-bottom: 30px;
+}
+
+.main-theme button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}

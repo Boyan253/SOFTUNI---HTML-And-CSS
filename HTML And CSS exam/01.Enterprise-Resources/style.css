@@ -1,0 +1,94 @@
+/* h1 color hsl(0deg 0% 34.9%) */
+/* body color */
+
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* position: fixed; */
+    background-color: hsl(0deg 0% 85.1%);
+    margin: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 55px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.text-content {
+    padding: 30px;
+}
+
+.card {
+    flex: 1 0 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 20px;
+    position: relative;
+}
+
+.theme-picture {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 320px;
+    object-fit: cover;
+}
+hr{
+    margin-top: 30px;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 16px;
+}
+
+.profile-pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-name {
+    margin-left: 10px;
+    /* Adjust the margin-left value as needed */
+}
+
+.time {
+    margin-left: auto;
+    color: hsl(240deg 9.09% 63.33%);
+    font-size: 20px;
+    /* Align the time to the right */
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+    color: hsl(0deg 0% 34.9%);
+}
+
+.info {
+    font-size: 22px;
+    padding-top: 20px;
+    color: hsl(330deg 2.59% 45.49%);
+}
+
+h2 {
+    font-size: 27px;
+    font-weight: 300;
+    margin: 0px;
+    padding-top: 10px;
+}

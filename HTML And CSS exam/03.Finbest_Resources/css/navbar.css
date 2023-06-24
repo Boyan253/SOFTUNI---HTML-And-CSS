@@ -4,7 +4,7 @@ nav ul {
     list-style-type: none;
     display: flex;
     justify-content: flex-start;
-    /* Align menu items to the left */
+    
     padding: 10px;
     margin: 20px;
     font-size: 15px;
@@ -13,14 +13,14 @@ nav ul {
 
 nav li:not(.auth) {
     margin-right: 20px;
-    /* Add spacing between menu items */
+    
 }
 
 .auth {
     display: flex;
     margin-left: auto;
     margin-right: 240px;
-    /* Push the last two items to the right */
+    
 }
 
 .auth li:last-child {
@@ -29,4 +29,3 @@ nav li:not(.auth) {
 }
 
 
-/* Rest of your styles */

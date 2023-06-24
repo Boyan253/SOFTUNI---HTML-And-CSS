@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    margin-top: 250px;
+    padding: 40px;
+    text-align: center;
+}
+
+img{
+    height: initial;
+   max-width: 300px;
+}
+
+.content-container{
+   margin: 18px;
+   padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

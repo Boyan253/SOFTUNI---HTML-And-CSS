@@ -58,6 +58,3 @@ svg{
 a{
     color: black;
 }
-.desc-content > :last-child {
-    flex: 2;
-  }

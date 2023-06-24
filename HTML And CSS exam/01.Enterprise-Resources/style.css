@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* position: fixed; */
+   
     background-color: hsl(0deg 0% 85.1%);
     margin: 0;
 }
@@ -64,14 +64,14 @@ hr{
 
 .profile-name {
     margin-left: 10px;
-    /* Adjust the margin-left value as needed */
+    
 }
 
 .time {
     margin-left: auto;
     color: hsl(240deg 9.09% 63.33%);
     font-size: 20px;
-    /* Align the time to the right */
+    
 }
 
 h1 {
